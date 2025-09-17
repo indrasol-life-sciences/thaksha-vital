@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
+import { Link } from "react-router-dom";
 
 export function Footer() {
   return (
@@ -29,13 +30,13 @@ export function Footer() {
             <h3 className="font-semibold text-foreground">Legal</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Privacy Policy
+                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary" asChild>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
                 </Button>
               </li>
               <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Terms of Service
+                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary" asChild>
+                  <Link to="/terms-of-service">Terms of Service</Link>
                 </Button>
               </li>
             </ul>

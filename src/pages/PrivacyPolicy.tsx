@@ -139,7 +139,7 @@ export default function PrivacyPolicy() {
                 </p>
                 <div className="mt-4 space-y-1">
                   <p className="font-medium">Email: privacy@vital.com</p>
-                  <p className="font-medium">Phone: +1 (555) 123-4567</p>
+                  <p className="font-medium">Phone: +91 9966636305</p>
                   <p className="font-medium">Address: Indrasol Life Sciences</p>
                 </div>
               </CardContent>
