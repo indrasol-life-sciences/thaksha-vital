@@ -9,14 +9,14 @@ export function Header() {
             <img 
               src="/vital-logo.jpeg" 
               alt="Vital Corporation" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
             <div className="flex items-center space-x-2 text-sm">
               <span className="text-muted-foreground">Powered by</span>
               <img 
                 src="/thaksha-logo.png" 
                 alt="Thaksha" 
-                className="h-10 w-auto opacity-90"
+                className="h-12 w-auto opacity-90"
               />
             </div>
           </div>
