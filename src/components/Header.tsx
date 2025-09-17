@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 export function Header() {
   return (
@@ -28,6 +29,12 @@ export function Header() {
           <a href="#support" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
             Support
           </a>
+          <Link to="/privacy-policy" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            Privacy Policy
+          </Link>
+          <Link to="/terms-of-service" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            Terms of Service
+          </Link>
         </nav>
 
         <Button variant="login" size="lg" asChild>
