@@ -23,13 +23,6 @@ const supportOptions = [
     description: "Instant help through our chat system",
     contact: "Available in LMS",
     availability: "Business Hours"
-  },
-  {
-    icon: Clock,
-    title: "Help Center",
-    description: "Browse FAQs and documentation",
-    contact: "help.vital-lms.com",
-    availability: "Always Available"
   }
 ];
 
