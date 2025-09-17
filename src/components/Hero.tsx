@@ -7,27 +7,25 @@ export function Hero() {
       <div className="container px-4 py-section">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-6xl font-bold text-foreground leading-tight">
+            <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">
               Empower Your Growth with{" "}
+              <br />
               <span className="bg-gradient-hero bg-clip-text text-transparent">
                 Vital Corp Thaksha LMS
               </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Your comprehensive learning management system for onboarding, upskilling, compliance training, 
+              Your comprehensive <strong>learning management system</strong> for onboarding, upskilling, compliance training, 
               and career development. Built exclusively for Vital Corporation employees.
             </p>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center items-center">
             <Button variant="hero" size="lg" className="text-lg px-8 py-6" asChild>
               <a href="https://vitalcorp.thaksha.in/login/index.php">
                 Access Your LMS
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6">
-              Learn More
             </Button>
           </div>
 
