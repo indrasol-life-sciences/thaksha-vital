@@ -6,6 +6,13 @@ export function Hero() {
     <section className="relative min-h-[80vh] flex items-center justify-center bg-gradient-subtle">
       <div className="container px-4 py-section">
         <div className="max-w-4xl mx-auto text-center space-y-8">
+          <div className="flex justify-center mb-8">
+            <img 
+              src="/vital-logo.jpeg" 
+              alt="Vital Corporation" 
+              className="h-20 w-auto opacity-90"
+            />
+          </div>
           <div className="space-y-4">
             <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">
               Empower Your Growth with{" "}
