@@ -52,19 +52,11 @@ export function Footer() {
 
         <Separator className="my-8" />
 
-        <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+        <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
             <span>© 2025 Vital Corporation. All rights reserved.</span>
             <span>•</span>
             <span>Powered by Thaksha (Indrasol Life Sciences)</span>
-          </div>
-          
-          <div className="flex items-center space-x-4">
-            <Button variant="login" size="sm" asChild>
-              <a href="https://vitalcorp.thaksha.in/login/index.php">
-                Employee Login
-              </a>
-            </Button>
           </div>
         </div>
       </div>
