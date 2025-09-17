@@ -5,21 +5,11 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
         <div className="flex items-center space-x-6">
-          <div className="flex items-center space-x-4">
-            <img 
-              src="/vital-logo.jpeg" 
-              alt="Vital Corporation" 
-              className="h-16 w-auto"
-            />
-            <div className="flex items-center space-x-2 text-sm">
-              <span className="text-muted-foreground">Powered by</span>
-              <img 
-                src="/thaksha-logo.png" 
-                alt="Thaksha" 
-                className="h-12 w-auto opacity-90"
-              />
-            </div>
-          </div>
+          <img 
+            src="/thaksha-logo.png" 
+            alt="Thaksha" 
+            className="h-16 w-auto"
+          />
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
