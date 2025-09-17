@@ -4,12 +4,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between px-4">
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-3">
           <img 
             src="/thaksha-logo.png" 
             alt="Thaksha" 
             className="h-12 w-auto"
           />
+          <span className="text-sm text-muted-foreground font-light">
+            by indrasol life sciences
+          </span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-6">
