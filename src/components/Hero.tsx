@@ -10,9 +10,9 @@ export function Hero() {
             <h1 className="text-3xl md:text-5xl font-bold text-foreground leading-tight">
               Empower Your Growth with{" "}
               <br />
-              <span className="bg-gradient-hero bg-clip-text text-transparent">
-                Vital Corp Thaksha LMS
-              </span>
+              <span className="text-foreground">Vital Corp </span>
+              <span className="bg-gradient-hero bg-clip-text text-transparent">Thaksha</span>
+              <span className="bg-gradient-hero bg-clip-text text-transparent"> LMS</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Your comprehensive <strong>learning management system</strong> for onboarding, upskilling, compliance training, 
