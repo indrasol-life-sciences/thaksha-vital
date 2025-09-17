@@ -16,13 +16,6 @@ const supportOptions = [
     description: "Speak directly with our support team",
     contact: "+1 (555) 123-4567",
     availability: "Mon-Fri, 9AM-6PM"
-  },
-  {
-    icon: MessageSquare,
-    title: "Live Chat",
-    description: "Instant help through our chat system",
-    contact: "Available in LMS",
-    availability: "Business Hours"
   }
 ];
 
@@ -40,7 +33,7 @@ export function Support() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-3xl mx-auto">
           {supportOptions.map((option, index) => (
             <Card key={index} className="shadow-card hover:shadow-elegant transition-all duration-200 text-center">
               <CardHeader>
