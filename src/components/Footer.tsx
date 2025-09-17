@@ -33,16 +33,6 @@ export function Footer() {
                   Terms of Service
                 </Button>
               </li>
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Cookie Policy
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Compliance
-                </Button>
-              </li>
             </ul>
           </div>
 
