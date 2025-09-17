@@ -10,7 +10,7 @@ export function Header() {
             alt="Thaksha" 
             className="h-12 w-auto"
           />
-          <span className="text-sm text-muted-foreground font-light">
+          <span className="text-sm text-muted-foreground font-light -mb-1">
             by indrasol life sciences
           </span>
         </div>
