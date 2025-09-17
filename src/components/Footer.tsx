@@ -19,31 +19,6 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="space-y-4">
-            <h3 className="font-semibold text-foreground">Quick Links</h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Login to LMS
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Course Catalog
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Support Center
-                </Button>
-              </li>
-              <li>
-                <Button variant="link" className="h-auto p-0 text-muted-foreground hover:text-primary">
-                  Employee Portal
-                </Button>
-              </li>
-            </ul>
-          </div>
 
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Legal</h3>
@@ -74,10 +49,8 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Contact</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Vital Corporation</p>
-              <p>Learning & Development</p>
-              <p>lms-support@vital.com</p>
-              <p>+1 (555) 123-4567</p>
+              <p>Contact: support@vitalcorp.thaksha.in</p>
+              <p>Internal Helpdesk Extension: 1234</p>
             </div>
           </div>
         </div>
@@ -86,14 +59,16 @@ export function Footer() {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
-            <span>© 2024 Vital Corporation. All rights reserved.</span>
+            <span>© 2025 Vital Corporation. All rights reserved.</span>
             <span>•</span>
             <span>Powered by Thaksha (Indrasol Life Sciences)</span>
           </div>
           
           <div className="flex items-center space-x-4">
-            <Button variant="login" size="sm">
-              Employee Login
+            <Button variant="login" size="sm" asChild>
+              <a href="https://vitalcorp.thaksha.in/login/index.php">
+                Employee Login
+              </a>
             </Button>
           </div>
         </div>

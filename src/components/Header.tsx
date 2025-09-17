@@ -37,8 +37,10 @@ export function Header() {
           </a>
         </nav>
 
-        <Button variant="login" size="lg">
-          Login to LMS
+        <Button variant="login" size="lg" asChild>
+          <a href="https://vitalcorp.thaksha.in/login/index.php">
+            Login to LMS
+          </a>
         </Button>
       </div>
     </header>

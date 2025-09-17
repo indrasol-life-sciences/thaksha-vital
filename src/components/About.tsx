@@ -86,11 +86,7 @@ export function About() {
                     </p>
                   </div>
                   
-                  <div className="grid grid-cols-3 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-primary">500+</div>
-                      <div className="text-sm text-muted-foreground">Employees</div>
-                    </div>
+                  <div className="grid grid-cols-2 gap-4 text-center">
                     <div>
                       <div className="text-2xl font-bold text-secondary">95%</div>
                       <div className="text-sm text-muted-foreground">Completion Rate</div>
