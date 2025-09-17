@@ -6,8 +6,8 @@ export function Footer() {
   return (
     <footer className="bg-background border-t">
       <div className="container px-4 py-8 sm:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
-          <div className="space-y-3 sm:space-y-4 sm:col-span-2 md:col-span-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+          <div className="space-y-3 sm:space-y-4 sm:col-span-2 lg:col-span-1">
             <div className="flex items-center space-x-2 sm:space-x-3">
               <img 
                 src="/vital-logo.jpeg" 
@@ -41,7 +41,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-3 sm:space-y-4 sm:col-span-2 md:col-span-1">
+          <div className="space-y-3 sm:space-y-4 sm:col-span-2 lg:col-span-1">
             <h3 className="font-semibold text-foreground text-sm sm:text-base">Contact</h3>
             <div className="space-y-1 sm:space-y-2 text-xs sm:text-sm text-muted-foreground">
               <p>Contact: support@vitalcorp.thaksha.in</p>
