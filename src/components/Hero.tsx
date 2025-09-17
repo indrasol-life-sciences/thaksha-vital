@@ -11,7 +11,7 @@ export function Hero() {
               Empower Your Growth with{" "}
               <br />
               <span className="bg-gradient-hero bg-clip-text text-transparent">
-                Vital Corp Thaksha LMS
+                Vital Corp <span className="text-secondary">Thaksha</span> LMS
               </span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
