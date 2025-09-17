@@ -16,7 +16,7 @@ export function Header() {
               <img 
                 src="/thaksha-logo.png" 
                 alt="Thaksha" 
-                className="h-7 w-auto opacity-90"
+                className="h-10 w-auto opacity-90"
               />
             </div>
           </div>
