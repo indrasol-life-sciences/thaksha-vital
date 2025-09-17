@@ -10,7 +10,7 @@ export function Hero() {
             <img 
               src="/vital-logo.jpeg" 
               alt="Vital Corporation" 
-              className="h-20 w-auto opacity-90"
+              className="h-28 w-auto"
             />
           </div>
           <div className="space-y-4">
