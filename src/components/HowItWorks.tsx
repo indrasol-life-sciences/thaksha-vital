@@ -24,32 +24,32 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-section bg-gradient-subtle">
+    <section id="how-it-works" className="py-8 sm:py-section bg-gradient-subtle">
       <div className="container px-4">
-        <div className="text-center space-y-4 mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">
+        <div className="text-center space-y-4 mb-12 sm:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground">
             Getting Started is Simple
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
             Follow these three easy steps to begin your learning journey with Vital Corp Thaksha LMS.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {steps.map((step, index) => (
             <div key={index} className="relative">
-              <Card className="shadow-card hover:shadow-elegant transition-all duration-200 relative">
-                <CardHeader className="text-center">
-                  <div className="mx-auto w-16 h-16 rounded-full bg-gradient-hero flex items-center justify-center mb-4">
-                    <step.icon className="h-8 w-8 text-white" />
+              <Card className="shadow-card hover:shadow-elegant transition-all duration-200 relative h-full">
+                <CardHeader className="text-center pb-4">
+                  <div className="mx-auto w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-gradient-hero flex items-center justify-center mb-3 sm:mb-4">
+                    <step.icon className="h-7 w-7 sm:h-8 sm:w-8 text-white" />
                   </div>
-                  <div className="absolute -top-4 -right-4 w-8 h-8 rounded-full bg-secondary text-white flex items-center justify-center font-bold text-sm">
+                  <div className="absolute -top-3 -right-3 sm:-top-4 sm:-right-4 w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-secondary text-white flex items-center justify-center font-bold text-xs sm:text-sm">
                     {step.step}
                   </div>
-                  <CardTitle className="text-xl">{step.title}</CardTitle>
+                  <CardTitle className="text-lg sm:text-xl">{step.title}</CardTitle>
                 </CardHeader>
-                <CardContent className="text-center">
-                  <CardDescription className="text-muted-foreground leading-relaxed">
+                <CardContent className="text-center pt-0">
+                  <CardDescription className="text-muted-foreground leading-relaxed text-sm sm:text-base">
                     {step.description}
                   </CardDescription>
                 </CardContent>
